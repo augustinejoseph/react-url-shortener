@@ -1,0 +1,14 @@
+<div class="qrcode__pic">
+    <ng-template [ngIf]="!hasText()">
+        <app-qrcode-skeleton></app-qrcode-skeleton>
+    </ng-template>
+
+    <ng-template [ngIf]="hasText()">
+        <qrcode 
+            colorLight="#FAF9F8" 
+            [qrdata]="text" 
+            [width]="300" 
+            [errorCorrectionLevel]="'M'"
+        ></qrcode>
+    </ng-template>
+</div>

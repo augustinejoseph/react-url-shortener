@@ -1,0 +1,8 @@
+<section class="qrcode">
+    <div class="qrcode__input-wrapper">
+        <input [(ngModel)]="text" type="text" class="qrcode__input" placeholder="Digite o texto">
+    </div>
+
+    <app-qrcode-pic-handler [text]="text"></app-qrcode-pic-handler>
+
+</section>

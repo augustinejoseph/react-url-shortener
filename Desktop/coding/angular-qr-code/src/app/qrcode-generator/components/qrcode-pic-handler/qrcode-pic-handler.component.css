@@ -1,0 +1,7 @@
+.qrcode__pic {
+    min-height: 440px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

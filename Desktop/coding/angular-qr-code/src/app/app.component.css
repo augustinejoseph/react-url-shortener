@@ -1,0 +1,20 @@
+.content {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
+    background-color: var(--clr-gray-300);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__owner {
+    font-size: var(--fs-sm);
+}
+
+.footer__link {
+    color: var(--clr-black);
+}
+

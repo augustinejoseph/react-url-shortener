@@ -1,0 +1,22 @@
+.qrcode__skeleton {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    
+    background-color: var(--clr-gray-400);
+    animation-name: skeleton-animation;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: .8s;
+
+}
+
+@keyframes skeleton-animation {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
